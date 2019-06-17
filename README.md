@@ -6,6 +6,13 @@ wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/Mattaclp/
 
 Tested .It can be install on Ubuntu successful.
 
+运行管理脚本：sprov-ui
+
+如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl
+ubuntu/debian 系统安装 Curl 方法: apt-get update -y && apt-get install curl -y
+centos 系统安装 Curl 方法: yum update -y && yum install curl -y
+安装好 curl 之后就能安装脚本了
+
 This script collection BBR,BBR Magic,BBR Plus,Lotserver
 
 If you install TCP Accelerate you must manusal open acceleration
